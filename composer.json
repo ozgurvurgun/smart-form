@@ -1,0 +1,21 @@
+{
+    "name": "smartlab/participant-form",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smartlab\\ParticipantForm\\": "app/",
+            "Smartlab\\ParticipantForm\\Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ozgur VURGUN",
+            "email": "ozgurvurgun1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
