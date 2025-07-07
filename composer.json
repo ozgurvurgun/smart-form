@@ -4,8 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Smartlab\\ParticipantForm\\": "app/",
-            "Smartlab\\ParticipantForm\\Core\\": "core/"
+            "Smartlab\\ParticipantForm\\": "App/",
+            "Smartlab\\ParticipantForm\\Core\\": "Core/"
         }
     },
     "authors": [

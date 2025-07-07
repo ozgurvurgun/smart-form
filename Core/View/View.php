@@ -9,7 +9,7 @@ class View
     public static function render(string $view, array $data = []): void
     {
         extract($data);
-        $viewFile = __DIR__ . '/../../app/views/' . $view . '.php';
+        $viewFile = __DIR__ . '/../../App/views/' . $view . '.php';
 
         if (file_exists($viewFile)) {
             require $viewFile;
@@ -21,7 +21,7 @@ class View
     public static function renderToString(string $view, array $data = []): string
     {
         extract($data);
-        $viewFile = __DIR__ . '/../../app/views/' . $view . '.php';
+        $viewFile = __DIR__ . '/../../App/views/' . $view . '.php';
 
         if (!file_exists($viewFile)) {
             return "<h1>404 - View '{$view}.php' not found.</h1>";

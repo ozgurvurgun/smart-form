@@ -6,7 +6,7 @@ use Smartlab\ParticipantForm\Controllers\Web\DashboardController;
 
 /** @var $router Smartlab\ParticipantForm\Core\Router\Router */
 
-$router->get('/', [HomeController::class, 'index']);
+//$router->get('/', [HomeController::class, 'index']);
 
 $router->get('/user/{id}', [HomeController::class, 'showUser']);
 

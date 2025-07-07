@@ -1,5 +1,8 @@
 <?php
 
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
@@ -13,8 +16,8 @@ Config::load();
 
 $router = new Router();
 
-require_once __DIR__ . '/../app/routes/web.php';
-require_once __DIR__ . '/../app/routes/api.php';
+require_once __DIR__ . '/../App/routes/web.php';
+require_once __DIR__ . '/../App/routes/api.php';
 
 $router->dispatch();
 
