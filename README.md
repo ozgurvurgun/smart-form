@@ -4,7 +4,7 @@
 ## Clone the Repository
 
 ```bash
-git clone https://your-repo-url.git && cd smart-form
+https://github.com/ozgurvurgun/smart-form.git && cd smart-form
 ```
 
 
